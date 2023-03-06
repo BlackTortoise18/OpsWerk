@@ -1,0 +1,11 @@
+Hypothetical Bug Report : Duo Lingo
+Bug Title : Streak Freeze purchase limit functionality error
+Pre-Condition/s : An account equipped with full streak freeze (5/5) 
+Platform : Mobile App
+URL(If Applicable) : NA
+Browser : NA
+Expected Behavior : Streak Freeze block should not be clickable so user cannot attempt to make a purchase
+Actual Behavior : On Click of Streak Freeze block, the purchase popup appears and user is able to press on buy streak freeze. Crystal points gets deducted on account but does not actually add due to max limit.
+Additional Notes : This only happens on accounts with milestone bonus of 5/5 max freeze streak and does not happen on 3/3 streak freeze regular users.
+Priority : 1
+Status : Recurring
