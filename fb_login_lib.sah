@@ -1,0 +1,16 @@
+function login($email, $password, $msg, $user){
+  _setValue(_textbox("email"), $email);
+  _setPassword(_password("pass"), $password);
+  _click(_submit("Login"));
+
+  _wait(3000);
+
+   if (_condition(_exists(_div("error_box")))){
+  _assertExists(_div("error_box"));
+  _assert(_isVisible(_textbox("error_box")));
+  _assertEqual($msg, _getValue(_div("error_box")));
+}
+
+   if (_condition(_exists(_span("x1lliihq x6ikm8r x10wlt62 x1n2onr6")))){
+    _containsText(_span("x1lliihq x6ikm8r x10wlt62 x1n2onr6"), $user);
+}

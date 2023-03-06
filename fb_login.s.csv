@@ -1,0 +1,12 @@
+TestCase,Key Word,Argument 1,Argument 2,Argument 3,Argument 4,
+,loadSahi,https://www.facebook.com/,,,,
+,,,,,,
+Incorrect entries login,[Documentation],Login using incorrect Username and password,,,,
+,verifyLogin,incorrect_user06,incorrectpa$$w0rd06,"Wrong credentials
+Invalid username or password",,
+Incorrect username,[Documentation],Login using incorrect Username,,,,
+,verifyLogin,incorrect_user06,pa$$w0rd06,"""The password you’ve entered is incorrect. Forgot Password?""",,
+Incorrect password,[Documentation],Login using incorrect password,,,,
+,verifyLogin,correct_user06,incorrectpa$$w0rd06,"""The email or mobile number you entered isn’t connected to an account. Find your account and log in.""",,
+Verify correct login,[Documentation],Login using incorrect Username and password,,,,
+,verifyLogin,correct_user06,pa$$w0rd06,,"""Adrian Benavente""",
