@@ -1,0 +1,25 @@
+Test Scenarios for Writing a Post in Linked in
+
+Test Scenarios: Desktop
+Test Scenario 1: Check the Start a post section block at the top of the Home screen
+Test Scenario 2: Check the Create a post popup redirection
+Test Scenario 3: Check the Privacy filter functionality
+Test Scenario 4: Check the content input box functionalities
+Test Scenario 5: Check the Emoji feature functionality
+Test Scenario 6: Check the Media attachment options functionalities
+Test Scenario 7: Check the Comment filter functionality
+Test Scenario 8: Check the user is able to post correctly
+Test Scenario 9: Check the Schedule post functionality
+Test Scenario 10: Check the close Create post functionality
+
+Test Scenarios: Desktop
+Test Scenario 1: Check the Start a post icon at the quick access belt of the mobile Home screen
+Test Scenario 2: Check the Create a post popup redirection
+Test Scenario 3: Check the Privacy filter functionality
+Test Scenario 4: Check the content input box functionalities
+Test Scenario 5: Check the Add Background feature in the content input box
+Test Scenario 6: Check the Media attachment options functionalities
+Test Scenario 7: Check the Comment filter functionality
+Test Scenario 8: Check the user is able to post correctly
+Test Scenario 9: Check the Schedule post functionality
+Test Scenario 10: Check the close Create post functionality
